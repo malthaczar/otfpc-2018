@@ -6,6 +6,8 @@
 
 body {
   padding-top: 54px;
+  color: #fff;
+  background-color: #666;
 }
 
 @media (min-width: 992px) {
@@ -26,4 +28,70 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+.card {
+  background-color: transparent;
+}
+
+.card-header {
+  background-color: transparent;
+  text-align: center;
+  border: 0;
+}
+
+.card-body{
+  background-color: blue;
+}
+
+.card-footer{
+  background-color: darkgray;
+}
+
+.section-middle {
+  background-color: darkgray;
+  padding: 1rem;
+}
+
+.btn {
+    border-radius: 6px;
+/*    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;*/
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-primary {
+  color: #000;
+  background-color: transparent;
+  border: 2px solid #00ffff !important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #00ffff;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #000;
+  border-color: #00ffff;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
 }
