@@ -1,13 +1,11 @@
-/*!
- * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
- */
-
 body {
   padding-top: 54px;
-  color: #fff;
-  background-color: #666;
+  color: #e5e5e5;
+  background-color: #e1e1e1;
+}
+
+h1 {
+  color: #000;
 }
 
 @media (min-width: 992px) {
@@ -16,14 +14,46 @@ body {
   }
 }
 
-.carousel-item {
-  height: 65vh;
+.navbar{
+  padding: 0rem .5rem;
+}
+
+.navbar-brand{
+  margin-right: 20px;
+  color: #fff !important;
+}
+
+.navbar-brand > img{
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+ color: #fff;
+}
+
+a.active{
+ color: #2ecefe !important;
+}
+
+.bg-custom {
+  background-color: #000 !important;
+}
+
+a.bg-custom:hover, a.bg-custom:focus,
+button.bg-custom:hover,
+button.bg-custom:focus {
+  background-color: #1d2124 !important;
+}
+
+.business-header {
+  height: 50vh;
   min-height: 300px;
-  background: no-repeat center center scroll;
+  background: url('../images/header1.png') center center no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+  -o-background-size: cover;
 }
 
 .portfolio-item {
@@ -40,16 +70,18 @@ body {
   border: 0;
 }
 
-.card-body{
-  background-color: blue;
-}
-
 .card-footer{
-  background-color: darkgray;
+  background-color: #1f1f1f;
 }
 
 .section-middle {
-  background-color: darkgray;
+  background-color: #1f1f1f;
+  padding: 1rem;
+}
+
+.section-bottom {
+  
+  background-color: #004070;
   padding: 1rem;
 }
 
@@ -65,13 +97,14 @@ body {
 
 .btn-primary {
   color: #000;
-  background-color: transparent;
-  border: 2px solid #00ffff !important;
+  background-color: #2ecefe;
+  border: 2px solid #fff !important;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #00ffff;
+  background-color: #2ecefe;
+  border: 2px solid #000 !important;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -81,7 +114,7 @@ body {
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
   background-color: #000;
-  border-color: #00ffff;
+  border-color: #2ecefe;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
