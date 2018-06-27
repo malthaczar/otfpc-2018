@@ -23,7 +23,8 @@
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-custom">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="images/logo-no-bg.png">Call: (352)-428-2641</a>
+        <a class="navbar-brand mr-sm-2" href="index.html"><img src="images/logo-no-bg.png"></a>
+        <h5>(352) 428-2641</h5>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,64 +36,29 @@
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact</a>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>  
       </div>  
     </nav>
 
-    <!-- Page Content -->
-    <div class="container">
-
-      <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Contact
-        <small>Subheading</small>
+    <!-- Page Heading/Breadcrumbs -->
+    <div class="container" >
+      <h1 class="mt-4 mb-3 text-black">Contact
+        <small>Us</small>
       </h1>
+    </div>
 
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="index.html">Home</a>
-        </li>
-        <li class="breadcrumb-item active">Contact</li>
-      </ol>
-
+    <!-- Page Content -->
+    <section class="section-middle">
+    <div class="container">
       <!-- Content Row -->
       <div class="row">
-        <!-- Map Column -->
-        <div class="col-lg-8 mb-4">
-          <!-- Embedded Google Map -->
-          <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
-        </div>
-        <!-- Contact Details Column -->
-        <div class="col-lg-4 mb-4">
-          <h3>Contact Details</h3>
-          <p>
-            3481 Melrose Place
-            <br>Beverly Hills, CA 90210
-            <br>
-          </p>
-          <p>
-            <abbr title="Phone">P</abbr>: (123) 456-7890
-          </p>
-          <p>
-            <abbr title="Email">E</abbr>:
-            <a href="mailto:name@example.com">name@example.com
-            </a>
-          </p>
-          <p>
-            <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
-          </p>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <!-- Contact Form -->
-      <!-- In order to set the email address and subject line for the contact form go to the mail/contact_me.php file. -->
-      <div class="row">
-        <div class="col-lg-8 mb-4">
-          <h3>Send us a Message</h3>
+          <!-- Contact Form -->
+          <!-- In order to set the email address and subject line for the contact form go to the mail/contact_me.php file. -->
+        <div class="col-md-8 mb-4">
           <form name="sentMessage" id="contactForm" novalidate>
             <div class="control-group form-group">
               <div class="controls">
@@ -115,26 +81,83 @@
             </div>
             <div class="control-group form-group">
               <div class="controls">
-                <label>Message:</label>
-                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                <label>Message: (What kind of pests?)</label>
+                <textarea rows="4" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
               </div>
             </div>
             <div id="success"></div>
             <!-- For success/fail messages -->
-            <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+            <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Form</button>
           </form>
         </div>
-
+        <!-- Contact Details Column -->
+        <div class="col-md-4 mb-4">
+          <h3>Get your free Quote!</h3>
+          <p>
+            Simply fill out this form. We will call you back with a quick quote and schedule your service.
+          </p>
+          <h5 class="text-muted">Have a question?</h5>
+          <p>
+            Give us a call or text 24/7, we are always ready to answer your pest control questions.
+          <p>
+            <abbr title="Call or text us 24/7">Phone</abbr>: (352) 428-2641
+          </p>
+          <p>
+            <abbr title="Please allow a few hours for us to respond">Email</abbr>:
+            <a href="mailto:ontheflypestcontrol@gmail.com">ontheflypestcontrol@gmail.com
+            </a>
+          </p>
+        </div>
       </div>
       <!-- /.row -->
-
     </div>
     <!-- /.container -->
+    </section>
+    <!-- /.middle section -->
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
+ <!-- Bot Section -->
+    <section class="section-bottom">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Where We Operate</h2>
+            <p>We service the following counties as shown on the map:</p>
+            <ul>
+              <li>Hernando</li>
+              <li>Pasco</li>
+              <li>Citrus</li>
+              <li>Sumter</li>
+              <li>North Pinellas / Hillsborough</li>
+              <li>Surrounding counties *</li>
+            </ul>
+            <p>* We are based out of Hernando county. As shown on the map we primarily focus on the counties marked in solid blue. Partial coverage for the counties marked in striped blue.</p>
+            <a class="btn btn-lg btn-primary btn-block mb-3" href="about.html">Learn More About Us</a> 
+          </div> 
+          <div class="col-md-5 offset-md-1">
+            <img class="img-fluid rounded" src="images/map2.png" alt="">
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.bot section -->
+    
+    <!-- Footer -->
+    <footer class="py-3 bg-custom">
+      <div class="container">
+        <p class="m-1 text-center">Call or Email 24/7, We are always ready because we are always <strong>On The Fly!</strong></p>
+        <div class="row">
+          <div class="col-md-4">
+            <p class="m-0 text-center">Call or Text: (352) 428-2641</p> 
+          </div>
+          <div class="col-md-4">
+            <p class="m-0 text-center">ontheflypestcontrol@gmail.com</p>
+          </div>
+          <div class="col-md-4">
+            <p class="m-0 text-center"><a class="" href="https://www.facebook.com/ontheflyPC/">Like us on Facebook</a></p> 
+          </div>
+        </div>
       </div>
       <!-- /.container -->
     </footer>
