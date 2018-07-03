@@ -53,7 +53,7 @@ button.bg-custom:focus {
 .header-bg {
   height: 50vh;
   min-height: 400px;
-  background: url('../images/house2.png') center center no-repeat scroll;
+  background: url('../images/house2.jpg') center center no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
