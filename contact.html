@@ -23,7 +23,7 @@
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-custom">
       <div class="container">
-        <a class="navbar-brand mr-sm-2" href="index.html"><img src="images/logo-no-bg.png"></a>
+        <a class="navbar-brand mr-sm-2" href="index.html"><img src="images/logo-no-bg.png" alt="on the fly pest control logo"></a>
         <h5>(352) 428-2641</h5>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -59,30 +59,31 @@
           <!-- Contact Form -->
           <!-- In order to set the email address and subject line for the contact form go to the mail/contact_me.php file. -->
         <div class="col-md-8 mb-4">
-          <form name="sentMessage" id="contactForm" novalidate>
+          <form method="POST" action="https://formspree.io/ontheflypestcontrol@gmail.com" name="sentMessage" id="contactForm" novalidate>
+            <input type="hidden" name="_next" value="https://malthaczar.github.io/otfpc-2018/" />
             <div class="control-group form-group">
               <div class="controls">
                 <label>Full Name:</label>
-                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                <input name="name" type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
                 <p class="help-block"></p>
               </div>
             </div>
             <div class="control-group form-group">
               <div class="controls">
                 <label>Phone Number:</label>
-                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                <input name="phone" type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
               </div>
             </div>
             <div class="control-group form-group">
               <div class="controls">
                 <label>Email Address:</label>
-                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                <input name="email" type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
               </div>
             </div>
             <div class="control-group form-group">
               <div class="controls">
                 <label>Message: (What kind of pests?)</label>
-                <textarea rows="4" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                <textarea name="message" rows="4" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
               </div>
             </div>
             <div id="success"></div>
@@ -134,7 +135,7 @@
             <a class="btn btn-lg btn-primary btn-block mb-3" href="about.html">Learn More About Us</a> 
           </div> 
           <div class="col-md-5 offset-md-1">
-            <img class="img-fluid rounded" src="images/map2.png" alt="">
+            <img class="img-fluid rounded" src="images/map2.png" alt="map of Hernando, Pasco, Sumter, Citrus, Pinellas, and Hillsborough">
           </div>
         </div>
         <!-- /.row -->
